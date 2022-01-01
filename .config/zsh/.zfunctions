@@ -1,0 +1,22 @@
+#
+# ~/.zfunctions
+#
+
+# Make dir and cd into it
+
+mkcd() {
+    mkdir -p "$1"
+    cd "$1"
+}
+
+# cd and ls into dir
+
+cl() {
+	local dir="$1"
+	local dir="${dir:=$HOME}"
+	if [[ -d "$dir" ]]; then
+		cd "$dir" >/dev/null; ls
+	else
+		echo "cl: $dir: Directory not found"
+	fi
+}

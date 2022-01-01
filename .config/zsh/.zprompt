@@ -1,0 +1,27 @@
+#
+# ~/.zprompt
+#
+
+# Prerequisites
+autoload -U colors && colors
+autoload -Uz vcs_info
+setopt PROMPT_SUBST
+
+# Directory
+dir() {
+    print "%{$fg[white]%}${${PWD/#$HOME/~}//(#b)([^\/])[^\/][^\/]#\//$match[1]/} "
+}
+
+# Background jobs
+bgjobs() {
+    print "%{$fg[yellow]%}%(1j.↓%j .)"
+}
+
+# Symbol
+symbol() {
+    print "%(?.%F{blue}.%F{red})❯%f "
+}
+
+# Prompt
+PROMPT='$(dir)$(bgjobs)$(symbol)'
+RPROMPT='${vcs_info_msg_0_}'

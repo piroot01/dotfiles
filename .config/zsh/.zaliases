@@ -1,0 +1,23 @@
+#
+# ~/.zaliases
+#
+
+alias v="nvim"
+alias vi="nvim"
+alias vim="nvim"
+alias ll="ls -la"
+alias grep="grep --color=auto"
+alias cp="cp -i"
+alias c="clear"
+alias bm="st -c 'floating' -g '77x30+500+500' -e bashmount"
+alias ran="ranger"
+alias r="ranger"
+alias pac="sudo pacman --color=auto"
+alias temp="watch sensors"
+alias e="exit"
+
+# Additional
+
+alias shared_disk="sudo mount -t cifs -o username=tomasjr //10.3.1.1/Pracovni /mnt/pulec_pracovni"
+alias rem="ranger /run/media/tomas"
+alias share="sudo ranger /mnt/pulec_pracovni"
