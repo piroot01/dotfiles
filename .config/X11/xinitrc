@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# merge xresources
+
+xrdb -merge ~/.config/X11/Xresources
+
+# add new keyboard layout
+
+setxkbmap us,cz -variant ,qwerty -option grp:alt_shift_toggle
+
+# increase key repeat rate
+
+xset r rate 250 30
+
+# notification daemon
+
+dunst &
+
+# start compositor
+
+picom &
+
+# hide mouse when typing
+
+xbanish &
+
+# start pipewire and pipere-pulse
+
+pipewire &
+pipewire-pulse &
+
+# start slstatus
+
+slstatus &
+
+# scale windows
+
+xrandr --output HDMI-A-0 --scale 1.25x1.25
+
+# set wallpaper
+
+setwall
+
+# start xautolock with slock
+
+xautolock -time 30 -locker suslock &
+
+# start wm
+
+while true; do
+	dwm 2> ~/.cache/dwm.log
+done
