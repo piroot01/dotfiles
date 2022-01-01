@@ -1,0 +1,13 @@
+#!/bin/sh
+
+mute() { pamixer -t ;}
+up() { pamixer -i 5 ;}
+down() { pamixer -d 5;}
+
+case "$1" in
+	mute) mute ;;
+	up) up ;;
+	down) down ;;
+esac >/dev/null
+
+pkill -RTMIN+10 dwmblocks &

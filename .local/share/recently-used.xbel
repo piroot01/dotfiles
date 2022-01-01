@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/dmenu-border-4.9.diff" added="2021-12-21T14:20:41.352537Z" modified="2021-12-21T14:20:41.645246Z" visited="2021-12-21T14:20:41.352539Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T14:20:41.645245Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/dmenu-lineheight-5.0.diff" added="2021-12-21T14:22:43.315574Z" modified="2021-12-21T14:22:43.714002Z" visited="2021-12-21T14:22:43.315577Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T14:22:43.713999Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/dmenu-highlight-4.9.diff" added="2021-12-21T14:26:17.408421Z" modified="2021-12-21T14:26:17.894492Z" visited="2021-12-21T14:26:17.408422Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T14:26:17.894486Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/dmenu-fuzzymatch-4.9.diff" added="2021-12-21T14:27:09.663245Z" modified="2021-12-21T14:27:10.128896Z" visited="2021-12-21T14:27:09.663246Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T14:27:10.128891Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/dmenu-fuzzyhighlight-4.9.diff" added="2021-12-21T14:27:40.072498Z" modified="2021-12-21T14:27:40.587148Z" visited="2021-12-21T14:27:40.072500Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T14:27:40.587144Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/dmenu-gruvbox-20210329-9ae8ea5.diff" added="2021-12-21T14:51:39.354497Z" modified="2021-12-21T14:51:39.745900Z" visited="2021-12-21T14:51:39.354500Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T14:51:39.745895Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/config.h" added="2021-12-21T14:54:56.130372Z" modified="2021-12-21T14:54:56.509503Z" visited="2021-12-21T14:54:56.130373Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T14:54:56.509499Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-fuzzyhighlight-4.9.diff" added="2021-12-21T15:25:15.455540Z" modified="2021-12-21T16:10:22.493363Z" visited="2021-12-21T15:25:15.455542Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T16:10:22.493360Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-fuzzymatch-4.9.diff" added="2021-12-21T15:26:00.038687Z" modified="2021-12-21T16:10:30.183224Z" visited="2021-12-21T15:26:00.038690Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T16:10:30.183216Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-border-4.9.diff" added="2021-12-21T15:26:30.798800Z" modified="2021-12-21T15:34:39.857754Z" visited="2021-12-21T15:26:30.798802Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T15:34:39.857745Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-lineheight-5.0.diff" added="2021-12-21T15:27:25.090094Z" modified="2021-12-21T16:22:40.514900Z" visited="2021-12-21T15:27:25.090097Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T16:22:40.514888Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-highlight-4.9.diff" added="2021-12-21T15:32:16.071917Z" modified="2021-12-21T16:22:16.974052Z" visited="2021-12-21T15:32:16.071918Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T16:22:16.974047Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-gruvbox-20210329-9ae8ea5.diff" added="2021-12-21T15:34:51.807143Z" modified="2021-12-21T16:22:06.716992Z" visited="2021-12-21T15:34:51.807145Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T16:22:06.716987Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-nosort-5.0.diff" added="2021-12-21T15:36:49.416970Z" modified="2021-12-21T15:36:49.856106Z" visited="2021-12-21T15:36:49.416972Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T15:36:49.856104Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-instant-4.7.diff" added="2021-12-21T16:02:37.732850Z" modified="2021-12-21T16:22:33.636698Z" visited="2021-12-21T16:02:37.732851Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T16:22:33.636692Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-numbers-4.9.diff" added="2021-12-21T16:04:24.228250Z" modified="2021-12-21T16:22:49.360322Z" visited="2021-12-21T16:04:24.228251Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T16:22:49.360314Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-incremental-20160702-3c91eed.diff" added="2021-12-21T16:13:22.693708Z" modified="2021-12-21T16:13:23.111418Z" visited="2021-12-21T16:13:22.693711Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T16:13:23.111408Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu/patches/dmenu-highpriority-4.9.diff" added="2021-12-21T16:13:56.061678Z" modified="2021-12-22T14:19:06.780933Z" visited="2021-12-21T16:13:56.061680Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T14:19:06.780928Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-attachbottom-6.2.diff" added="2021-12-21T18:13:11.517590Z" modified="2021-12-21T18:13:11.961504Z" visited="2021-12-21T18:13:11.517593Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T18:13:11.961502Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-bar-height-6.2.diff" added="2021-12-21T18:13:33.982987Z" modified="2021-12-21T18:13:34.376806Z" visited="2021-12-21T18:13:33.982989Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T18:13:34.376800Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-pertag-6.2.diff" added="2021-12-21T18:14:21.943000Z" modified="2021-12-21T18:14:22.321127Z" visited="2021-12-21T18:14:21.943002Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T18:14:22.321125Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-movestack-6.1.diff" added="2021-12-21T18:14:39.173235Z" modified="2021-12-21T18:14:39.555113Z" visited="2021-12-21T18:14:39.173238Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T18:14:39.555111Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-autostart-20161205-bb3bd6f.diff" added="2021-12-21T18:37:10.518937Z" modified="2021-12-21T18:37:10.900378Z" visited="2021-12-21T18:37:10.518940Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T18:37:10.900366Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-status2d-6.2.diff" added="2021-12-21T18:37:30.182193Z" modified="2021-12-21T18:37:30.553728Z" visited="2021-12-21T18:37:30.182197Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T18:37:30.553725Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-noborder-6.2.diff" added="2021-12-21T18:37:46.133869Z" modified="2021-12-21T18:37:46.531938Z" visited="2021-12-21T18:37:46.133872Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T18:37:46.531933Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-gaps-6.0.diff" added="2021-12-21T19:01:37.002611Z" modified="2021-12-21T19:01:37.551668Z" visited="2021-12-21T19:01:37.002613Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T19:01:37.551665Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/gaplessgrid.c" added="2021-12-21T19:23:51.356966Z" modified="2021-12-21T19:23:51.790706Z" visited="2021-12-21T19:23:51.356967Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T19:23:51.790703Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-gaplessgrid-6.1.diff" added="2021-12-21T19:24:01.348638Z" modified="2021-12-21T19:24:01.754939Z" visited="2021-12-21T19:24:01.348640Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T19:24:01.754933Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-bottomstack-6.1.diff" added="2021-12-21T20:24:51.362949Z" modified="2021-12-21T20:24:51.799775Z" visited="2021-12-21T20:24:51.362952Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T20:24:51.799773Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-titlecolor-20210815-ed3ab6b4.diff" added="2021-12-21T21:09:57.462548Z" modified="2021-12-21T21:09:57.913929Z" visited="2021-12-21T21:09:57.462550Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T21:09:57.913927Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-anysize-0.8.4.diff" added="2021-12-21T22:32:16.571526Z" modified="2021-12-22T16:16:49.521314Z" visited="2021-12-21T22:32:16.571529Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T16:16:49.521312Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-scrollback-0.8.4.diff" added="2021-12-21T22:33:39.987196Z" modified="2021-12-22T16:17:51.728924Z" visited="2021-12-21T22:33:39.987198Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T16:17:51.728918Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-newterm-0.8.2.diff" added="2021-12-21T22:35:07.979965Z" modified="2021-12-22T16:17:38.528319Z" visited="2021-12-21T22:35:07.979967Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T16:17:38.528310Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-gruvbox-dark-0.8.2.diff" added="2021-12-21T22:38:53.835603Z" modified="2021-12-21T22:38:54.347162Z" visited="2021-12-21T22:38:53.835605Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-21T22:38:54.347158Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dmenu_/patches/dmenu-highpriority-4.9.diff" added="2021-12-22T14:19:13.879929Z" modified="2021-12-22T14:19:15.043104Z" visited="2021-12-22T14:19:13.879931Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T14:19:15.043102Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/st_/patches/st-disable-bold-italic-fonts-0.8.2.diff" added="2021-12-22T15:08:42.951600Z" modified="2021-12-22T15:08:43.349652Z" visited="2021-12-22T15:08:42.951604Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T15:08:43.349646Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/st_/patches/st-boxdraw_v2-0.8.3.diff" added="2021-12-22T15:10:08.708600Z" modified="2021-12-22T15:10:09.132460Z" visited="2021-12-22T15:10:08.708603Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T15:10:09.132456Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/st_/patches/st-xresources-20200604-9ba7ecf.diff" added="2021-12-22T15:15:28.601332Z" modified="2021-12-22T15:15:28.988312Z" visited="2021-12-22T15:15:28.601335Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T15:15:28.988309Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/st_/patches/st-font2-20190416-ba72400.diff" added="2021-12-22T15:25:56.640119Z" modified="2021-12-22T15:25:56.979533Z" visited="2021-12-22T15:25:56.640119Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T15:25:56.979531Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/st_/patches/st-anysize-0.8.4.diff" added="2021-12-22T15:26:31.329350Z" modified="2021-12-22T15:26:31.725155Z" visited="2021-12-22T15:26:31.329351Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T15:26:31.725152Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/st_/patches/st-newterm-0.8.2.diff" added="2021-12-22T15:30:33.069264Z" modified="2021-12-22T15:30:33.448934Z" visited="2021-12-22T15:30:33.069266Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T15:30:33.448925Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/st_/patches/st-scrollback-0.8.4.diff" added="2021-12-22T15:32:58.334683Z" modified="2021-12-22T15:32:58.717011Z" visited="2021-12-22T15:32:58.334685Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T15:32:58.717007Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-boxdraw_v2-0.8.3.diff" added="2021-12-22T16:17:02.236706Z" modified="2021-12-22T16:17:02.618494Z" visited="2021-12-22T16:17:02.236708Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T16:17:02.618489Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-disable-bold-italic-fonts-0.8.2.diff" added="2021-12-22T16:17:19.028718Z" modified="2021-12-22T16:17:19.428201Z" visited="2021-12-22T16:17:19.028720Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T16:17:19.428194Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-font2-20190416-ba72400.diff" added="2021-12-22T16:17:29.453638Z" modified="2021-12-22T16:17:29.880361Z" visited="2021-12-22T16:17:29.453640Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T16:17:29.880356Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-xresources-20200604-9ba7ecf.diff" added="2021-12-22T16:18:00.836716Z" modified="2021-12-22T16:18:01.223101Z" visited="2021-12-22T16:18:00.836718Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T16:18:01.223098Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/siji.ttf" added="2021-12-22T17:27:01.395263Z" modified="2021-12-22T17:27:01.395292Z" visited="2021-12-22T17:27:01.395270Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T17:27:01.395283Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/slock/patches/slock-blur_pixelated_screen-1.4.diff" added="2021-12-22T17:55:08.008211Z" modified="2021-12-22T17:55:08.552514Z" visited="2021-12-22T17:55:08.008213Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T17:55:08.552508Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/slock/patches/slock-foreground-and-background-20210611-35633d4.diff" added="2021-12-22T17:56:09.770904Z" modified="2021-12-22T17:56:10.167506Z" visited="2021-12-22T17:56:09.770906Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T17:56:10.167499Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/slock/patches/slock-message-20191002-b46028b.diff" added="2021-12-22T17:56:35.895946Z" modified="2021-12-22T17:56:36.282289Z" visited="2021-12-22T17:56:35.895949Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T17:56:36.282284Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/slock/patches/slock-git-20161012-control-clear.diff" added="2021-12-22T17:57:58.845012Z" modified="2021-12-22T17:57:59.251770Z" visited="2021-12-22T17:57:58.845015Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T17:57:59.251766Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/slock/patches/slock-colormessage-20200210-35633d4.diff" added="2021-12-22T17:59:07.448385Z" modified="2021-12-22T17:59:08.018310Z" visited="2021-12-22T17:59:07.448387Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T17:59:08.018308Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/slock/patches/slock-dpms-1.4.diff" added="2021-12-22T17:59:44.916334Z" modified="2021-12-22T17:59:45.315395Z" visited="2021-12-22T17:59:44.916337Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T17:59:45.315387Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/slock/patches/slock-failure-command-1.4.diff" added="2021-12-22T18:02:39.219432Z" modified="2021-12-22T18:02:39.600226Z" visited="2021-12-22T18:02:39.219435Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-22T18:02:39.600221Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/wall/wall.png" added="2021-12-24T11:33:30.716041Z" modified="2021-12-24T11:33:31.117198Z" visited="2021-12-24T11:33:30.716044Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T11:33:31.117195Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/wall/wall.webp" added="2021-12-24T11:37:41.708406Z" modified="2021-12-24T11:37:42.104754Z" visited="2021-12-24T11:37:41.708409Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T11:37:42.104736Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-alpha-0.8.2.diff" added="2021-12-24T13:09:13.110288Z" modified="2021-12-24T13:09:13.569319Z" visited="2021-12-24T13:09:13.110290Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T13:09:13.569315Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/By%20The%20Way%20-%2001-07%20-%20Red%20Hot%20Chili%20Peppers%20-%20Can&apos;t%20Stop%20(Album%20Version).flac" added="2021-12-24T23:16:35.591686Z" modified="2021-12-24T23:16:35.591704Z" visited="2021-12-24T23:16:35.591687Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/flac"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T23:16:35.591695Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/Blood%20Sugar%20Sex%20Magik%20-%2001-11%20-%20Red%20Hot%20Chili%20Peppers%20-%20Under%20The%20Bridge.flac" added="2021-12-24T23:17:49.807067Z" modified="2021-12-24T23:17:49.807072Z" visited="2021-12-24T23:17:49.807068Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/flac"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T23:17:49.807070Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/Conspiracy%20Of%20One%20(FLAC).zip" added="2021-12-24T23:18:06.610716Z" modified="2021-12-25T10:50:31.303739Z" visited="2021-12-24T23:18:06.610716Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-25T10:50:31.303737Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/Americana%20(FLAC).zip" added="2021-12-24T23:18:36.695504Z" modified="2021-12-24T23:18:36.695512Z" visited="2021-12-24T23:18:36.695505Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T23:18:36.695508Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/The_Offspring-IXNAY_ON_THE_HOMBRE.zip" added="2021-12-24T23:20:42.098850Z" modified="2021-12-24T23:20:42.098869Z" visited="2021-12-24T23:20:42.098852Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T23:20:42.098860Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/Stadium%20Arcadium%20-%2001-02%20-%20Red%20Hot%20Chili%20Peppers%20-%20Snow%20(Hey%20Oh%20Album%20Version).flac" added="2021-12-24T23:29:14.374124Z" modified="2021-12-24T23:29:14.374130Z" visited="2021-12-24T23:29:14.374125Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/flac"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T23:29:14.374127Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/The_Offspring-Rise_And_Fall_Rage_And_Grace.zip" added="2021-12-24T23:36:29.778233Z" modified="2021-12-24T23:36:29.778238Z" visited="2021-12-24T23:36:29.778234Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T23:36:29.778235Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/Red_Hot_Chili_Peppers-Californication.zip" added="2021-12-24T23:38:30.243544Z" modified="2021-12-24T23:38:30.243554Z" visited="2021-12-24T23:38:30.243545Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-24T23:38:30.243550Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/Picard-Last.fm.ng-Plugin-master.zip" added="2021-12-25T10:28:12.825241Z" modified="2021-12-25T10:28:12.825245Z" visited="2021-12-25T10:28:12.825241Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-25T10:28:12.825243Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/Picard-Last.fm.ng-Plugin-2.0.4.zip" added="2021-12-25T10:28:56.469985Z" modified="2021-12-25T10:28:56.469990Z" visited="2021-12-25T10:28:56.469986Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-25T10:28:56.469988Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/chromaprint-fpcalc-1.5.1-linux-x86_64.tar.gz" added="2021-12-25T10:41:11.539718Z" modified="2021-12-25T10:41:11.539734Z" visited="2021-12-25T10:41:11.539721Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-25T10:41:11.539727Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-alwayscenter-20200625-f04cac6.diff" added="2021-12-25T19:56:12.703790Z" modified="2021-12-25T19:56:13.124994Z" visited="2021-12-25T19:56:12.703792Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-25T19:56:13.124991Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Documents/My/3D_printing/STLs/Steampunk_octopus/SteamopusFix.stl" added="2021-12-25T19:58:36.672011Z" modified="2021-12-25T19:58:45.999408Z" visited="2021-12-25T19:58:36.672013Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="model/stl"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-25T19:58:37.044524Z" count="2"/>
+          <bookmark:application name="prusa-slicer" exec="&apos;prusa-slicer %u&apos;" modified="2021-12-25T19:58:45.999405Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Documents/My/3D_printing/GCODEs/Steampunk_octopus/SteamopusFix_0.15mm_PETG_MINI_5h36m.gcode" added="2021-12-25T20:03:34.533049Z" modified="2021-12-25T20:03:34.533062Z" visited="2021-12-25T20:03:34.533050Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x.gcode"/>
+        <bookmark:applications>
+          <bookmark:application name="prusa-slicer" exec="&apos;prusa-slicer %u&apos;" modified="2021-12-25T20:03:34.533056Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Downloads/mocicon-0.1.4.tar.bz2" added="2021-12-26T12:41:07.891460Z" modified="2021-12-26T12:41:08.469690Z" visited="2021-12-26T12:41:07.891462Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-26T12:41:08.469681Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/dwm/patches/dwm-systray-20210418-67d76bd.diff" added="2021-12-26T12:47:35.091191Z" modified="2021-12-26T12:47:35.479421Z" visited="2021-12-26T12:47:35.091194Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-26T12:47:35.479415Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Documents/My/Text_documents/Projekt_maturita/Seznam_zakladnich_komponent/Seznam_1.md" added="2021-12-26T18:22:21.276635Z" modified="2021-12-26T18:29:41.061728Z" visited="2021-12-26T18:22:21.276636Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="apostrophe" exec="&apos;apostrophe %u&apos;" modified="2021-12-26T18:28:58.045326Z" count="4"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-26T18:29:41.061722Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Documents/My/PDFs/Projekt_maturita/Seznam_zakladnich_komponent/Seznam_1.pdf" added="2021-12-26T18:23:07.856839Z" modified="2021-12-26T18:29:13.832549Z" visited="2021-12-26T18:23:07.856840Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="apostrophe" exec="&apos;apostrophe %u&apos;" modified="2021-12-26T18:23:07.856841Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-26T18:29:13.832542Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/Documents/My/Text_documents/Projekt_maturita/Seznam_zakladnich_komponent/Seznam_1.pdf" added="2021-12-26T18:27:57.812651Z" modified="2021-12-26T18:29:41.061760Z" visited="2021-12-26T18:27:57.812652Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="apostrophe" exec="&apos;apostrophe %u&apos;" modified="2021-12-26T18:29:04.518096Z" count="2"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-26T18:29:41.061756Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_tomas0/Seznam_1.pdf" added="2021-12-26T18:28:46.752929Z" modified="2021-12-26T18:28:46.752935Z" visited="2021-12-26T18:28:46.752930Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-26T18:28:46.752932Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_tomas0/Seznam_1-1.pdf" added="2021-12-26T18:29:20.379981Z" modified="2021-12-26T18:29:20.379986Z" visited="2021-12-26T18:29:20.379982Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-26T18:29:20.379984Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/Font/JetBrainsMono-2.242.zip" added="2021-12-27T09:17:13.303939Z" modified="2021-12-27T09:17:13.751317Z" visited="2021-12-27T09:17:13.303940Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-27T09:17:13.751314Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/suckless/st/patches/st-anygeometry-0.8.1.diff" added="2021-12-27T10:02:33.741828Z" modified="2021-12-27T10:02:34.281293Z" visited="2021-12-27T10:02:33.741830Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-27T10:02:34.281290Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/cups/drivers/Kyocera_Linux_PPD_Ver_8_1601_tar.gz" added="2021-12-28T12:45:39.995793Z" modified="2021-12-28T12:52:45.916401Z" visited="2021-12-28T12:45:39.995795Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/gzip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-28T12:52:45.916394Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/cups/drivers/KyoceraLinuxPackages-20210527.tar.gz" added="2021-12-28T12:54:44.936961Z" modified="2021-12-28T12:55:45.067837Z" visited="2021-12-28T12:54:44.936962Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-28T12:55:45.067828Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/cups/drivers/Linux_8.1309_EC...idn_TA266ci.zip" added="2021-12-28T13:32:12.862398Z" modified="2021-12-28T13:32:13.333884Z" visited="2021-12-28T13:32:12.862399Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-28T13:32:13.333876Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomas/.config/cups/drivers/Linux/Global/English/Kyocera%20ECOSYS%20M6526cdn.PPD" added="2021-12-28T13:33:23.838039Z" modified="2021-12-28T14:17:48.398714Z" visited="2021-12-28T13:33:23.838041Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-12-28T13:33:23.838048Z" count="1"/>
+          <bookmark:application name="system-config-printer" exec="&apos;system-config-printer %u&apos;" modified="2021-12-28T14:17:48.398708Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

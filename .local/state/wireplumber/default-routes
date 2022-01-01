@@ -1,0 +1,12 @@
+[default-routes]
+alsa_card.pci-0000_00_1f.3:output:analog-output-headphones:channelMap=FL;FR;
+alsa_card.pci-0000_00_1f.3:output:analog-output-headphones:channelVolumes=0.091104611754417;0.091104611754417;
+alsa_card.pci-0000_00_1f.3:output:analog-output-headphones:latencyOffsetNsec=0
+alsa_card.pci-0000_00_1f.3:output:analog-output-lineout:channelMap=FL;FR;
+alsa_card.pci-0000_00_1f.3:output:analog-output-lineout:channelVolumes=0.39999160170555;0.39999160170555;
+alsa_card.pci-0000_00_1f.3:output:analog-output-lineout:latencyOffsetNsec=0
+alsa_card.pci-0000_00_1f.3:profile:output:analog-stereo+input:analog-stereo=analog-output-headphones;
+alsa_card.usb-iFi__by_AMR__iFi__by_AMR__HD_USB_Audio_0003-00:output:analog-output:channelMap=FL;FR;
+alsa_card.usb-iFi__by_AMR__iFi__by_AMR__HD_USB_Audio_0003-00:output:analog-output:channelVolumes=0.091104611754417;0.091104611754417;
+alsa_card.usb-iFi__by_AMR__iFi__by_AMR__HD_USB_Audio_0003-00:output:analog-output:latencyOffsetNsec=0
+alsa_card.usb-iFi__by_AMR__iFi__by_AMR__HD_USB_Audio_0003-00:profile:output:analog-stereo=analog-output;
