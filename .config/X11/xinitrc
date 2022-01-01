@@ -29,10 +29,6 @@ pipewire-pulse &
 
 slstatus &
 
-# scale windows
-
-xrandr --output HDMI-A-0 --scale 1.25x1.25
-
 # set wallpaper
 
 setwall
