@@ -1,0 +1,14 @@
+#!/bin/sh
+
+mute="$(pamixer --get-volume-human)"
+vol="$(pamixer --get-volume)"
+
+if [ $mute = 'muted' ]; then
+    printf "^c#458588^^d^muted"
+else
+    case ${vol%?} in
+        [2-9]|10) i='' ;;
+               *) i=''
+    esac
+    printf "%s%%\n" "^c#458588^$i^d^ $vol"
+fi

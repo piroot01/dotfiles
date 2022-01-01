@@ -1,0 +1,5 @@
+#!/bin/sh
+
+backlight="$(xbacklight | sed 's/\..*//')"
+
+printf "%s%%\n" "^c#689d6a^ ^d^$backlight"

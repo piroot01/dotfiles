@@ -1,0 +1,20 @@
+#!/bin/sh
+
+artist="$(mocp -i | grep Artist | awk -F':' '{print $2}' | tail -c +2)"
+song="$(mocp -i | grep Song | awk -F':' '{print $2}' | tail -c +2)"
+mocp_status="$(mocp -i | grep State | awk -F':' '{print $2}' | tail -c +2)"
+
+if [ $mocp_status = "STOP" ]; then
+    status="^c#b16286^^d^"
+    printf "%s no music\n" "$status"
+elif [ $mocp_status = "PAUSE" ]; then
+    status="^c#b16286^^d^"
+    printf "%s %s^c#b16286^^d^%s\n" "$status" "$artist" "$song"
+elif [ $mocp_status = "PLAY" ]; then
+    status="^c#b16286^^d^"
+    printf "%s %s^c#b16286^^d^%s\n" "$status" "$artist" "$song"
+else
+    status="^c#b16286^"
+    printf "%s\n" "$status"
+fi
+
