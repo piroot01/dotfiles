@@ -1,0 +1,5 @@
+#!/bin/sh
+
+memory="$(free -h | grep Mem | awk '{print $3}')"
+
+printf "%s\n" "^c#ff768e^ ^d^$memory"

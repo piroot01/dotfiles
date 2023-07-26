@@ -1,0 +1,23 @@
+# prerequisites
+autoload -U colors && colors
+autoload -Uz vcs_info
+setopt PROMPT_SUBST
+
+# directory
+dir() {
+    print "%{$fg[white]%}${${PWD/#$HOME/~}//(#b)([^\/])[^\/][^\/]#\//$match[1]/} "
+}
+
+# background jobs
+bgjobs() {
+    print "%{$fg[yellow]%}%(1j.↓%j .)"
+}
+
+# symbol
+symbol() {
+    print "%(?.%F{blue}.%F{red})❯%f "
+}
+
+# prompt
+PROMPT='$(dir)$(bgjobs)$(symbol)'
+RPROMPT='${vcs_info_msg_0_}'

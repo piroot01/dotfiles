@@ -1,0 +1,12 @@
+#!/bin/sh
+
+
+up() { doas light -A 10 ;}
+down() { doas light -U 10 ;}
+
+case "$1" in
+    up) up ;;
+    down) down ;;
+esac >/dev/null
+
+pkill -RTMIN+11 dwmblocks &

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+
+DIALOG_RESULT=$(printf "fullscreen\ndelay(5)\ncrop\nexit" | dmenu -i -f -p "Scrot:" )
+
+echo "This result is : $DIALOG_RESULT"
+sleep 1;
+
+if [ "$DIALOG_RESULT" = "fullscreen" ];
+then
+	exec scrot -e 'mv $f ~/Pictures/screenshots'
+elif [ "$DIALOG_RESULT" = "delay(5)" ];
+then
+	exec scrot -d 5 -e 'mv $f ~/Pictures/screenshots'
+elif [ "$DIALOG_RESULT" = "crop" ];
+then
+	exec shotgun $(slop -f '-i %i -g %g') - | tee /home/$USER/Pictures/$(date +'%F_%T').png | xclip -t 'image/png' -selection c
+elif [ "$DIALOG_RESULT" = "exit" ];
+then
+	    exit 0
+fi

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+status="$(printf '%.0f' $(light -G))"
+
+printf "%s%%" "^c#7aa2f7^ ^d^$status"

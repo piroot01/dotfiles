@@ -1,0 +1,11 @@
+#!/bin/sh
+
+removable_list="$(ls -1 /dev | grep -e sd -e mmc | grep -v sda | tr -d 1234567890 | sort -u | paste -sd ", " -)"
+
+if [ -z $removable_list ]; then
+    status=" "
+else
+    status="^c#449dab^ ^d^$removable_list"
+fi
+
+printf "%s\n" "$status"

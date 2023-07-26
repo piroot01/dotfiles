@@ -1,0 +1,33 @@
+#!/bin/sh
+
+status="$(cat /sys/class/power_supply/AC/online)"
+battery="$(cat /sys/class/power_supply/BAT1/capacity)"
+info="$(acpi -b | grep "Battery 1:" | cut -d ' ' -f 5)"
+
+if [ $status = "1" ]; then
+    case ${battery%?} in
+           10) i='^c#9ece6a^' ;;
+            9) i='^c#9ece6a^' ;;
+        [7-8]) i='^c#9ece6a^' ;;
+            6) i='^c#9ece6a^' ;;
+        [4-5]) i='^c#9ece6a^' ;;
+            3) i='^c#9ece6a^' ;;
+        [1-2]) i='^c#9ece6a^' ;;
+            *) i='^c#9ece6a^'
+    esac
+else
+    case ${battery%?} in
+        9|10) i='^c#9ece6a^' ;;
+           8) i='^c#9ece6a^' ;;
+           7) i='^c#9ece6a^' ;;
+           6) i='^c#9ece6a^' ;;
+           5) i='^c#9ece6a^' ;;
+           4) i='^c#9ece6a^' ;;
+           3) i='^c#9ece6a^' ;;
+           2) i='^c#9ece6a^' ;;
+           1) i='^c#f7768e^' ;;
+           *) i='^c#f7768e^'
+    esac
+fi
+
+printf "%s^c#9ece6a^^d^%s\n" "$i^d^ $battery%" "$info"

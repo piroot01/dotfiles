@@ -1,0 +1,20 @@
+#!/bin/sh
+
+artist="$(cmus-remote -Q | grep " artist " | awk -F"artist" '{print $2}' | tail -c +2)"
+song="$(cmus-remote -Q | grep title | awk -F"title" '{print $2}' | tail -c +2)"
+player_status="$(cmus-remote -Q | grep status | awk -F"status" '{print $2}' | tail -c +2)"
+
+if [ $player_status = "stopped" ]; then
+    status="^c#ad8ee6^^d^"
+    printf "%s no music\n" "$status"
+elif [ $player_status = "paused" ]; then
+    status="^c#ad8ee6^^d^"
+    printf "%s %s^c#ad8ee6^^d^%s\n" "$status" "$artist" "$song"
+elif [ $player_status = "playing" ]; then
+    status="^c#ad8ee6^^d^"
+    printf "%s %s^c#ad8ee6^^d^%s\n" "$status" "$artist" "$song"
+else
+    status="^c#ad8ee6^"
+    printf "%s\n" "$status"
+fi
+

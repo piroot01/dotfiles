@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cputemp=$(sensors | grep Package | awk '{print $4}' | tr -d +)
+
+printf "%s\n" "^c#f7768e^ ^d^$cputemp"

@@ -1,0 +1,14 @@
+dwm-alwayscenter-20200625-f04cac6.diff
+dwm-attachbottom-6.3.diff
+dwm-autostart-20161205-bb3bd6f.diff
+dwm-bar-height-6.2.diff
+dwm-bottomstack-6.1.diff
+dwm-floatrules-20210801-138b405.diff
+dwm-fullgaps-6.2.diff
+dwm-movestack-20211115-a786211.diff
+dwm-noborder-6.2.diff
+dwm-noborderflicker-20211227-8657affa2a61.diff
+dwm-pertag-6.2.diff
+dwm-status2d-6.3.diff
+dwm-titlecolor-20210815-ed3ab6b4.diff
+magicgrid.diff

@@ -1,0 +1,57 @@
+#!/bin/sh
+
+BLANK='#00000000'
+CLEAR='#ffffff22'
+DEFAULT='#cfc9c2'
+TEXT='#cfc9c2'
+WRONG='#f7768e'
+TYPE="449dab"
+VERIFYING='#b9f27c'
+
+i3lock \
+\
+--ignore-empty-password                                     \
+--fill                                                      \
+--image=/home/tomas/.local/share/wallpapers/lock_wall.jpg   \
+\
+--insidever-color=$CLEAR                                    \
+--ringver-color=$VERIFYING                                  \
+--insidewrong-color=$CLEAR                                  \
+--ringwrong-color=$WRONG                                    \
+--inside-color=$BLANK                                       \
+--ring-color=$DEFAULT                                       \
+--line-color=$BLANK                                         \
+--line-uses-inside                                          \
+--separator-color=$DEFAULT                                  \
+--wrong-color=$TEXT                                         \
+--time-color=$TEXT                                          \
+--date-color=$TEXT                                          \
+--layout-color=$TEXT                                        \
+--keyhl-color=$TYPE                                         \
+--bshl-color=$WRONG                                         \
+\
+--keylayout 1                                               \
+--screen 1                                                  \
+--force-clock                                               \
+--indicator                                                 \
+--time-str="%H:%M"                                          \
+--date-str="%d/%m/%y"                                       \
+--time-size=40                                              \
+--date-size=20                                              \
+--layout-size=15                                            \
+--layout-font="JetBrains Mono:style=Bold"                   \
+--time-font="JetBrains Mono:style=Bold"                     \
+--date-font="JetBrains Mono:style=Bold"                     \
+--layout-pos="x+230:y+984"                                  \
+--ind-pos="x+100:y+930"                                     \
+--time-pos="x+230:y+930"                                    \
+--date-pos="x+230:y+960"                                    \
+--pass-volume-keys                                          \
+--verif-text=""                                             \
+--wrong-text=""                                             \
+--lock-text=""                                              \
+--lockfailed-text=""                                        \
+--no-modkey-text                                            \
+--noinput-text=""                                           \
+--radius=30                                                 \
+--ring-width=8                                              \

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cpuusage="$(top -bn1 | rg -o "Cpu\(s\):\s+\d+.\d" | rg -o "\d+\.\d")"
+
+printf "%s%%\n" "^c#f7768e^ ^d^$cpuusage"

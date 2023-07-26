@@ -1,0 +1,56 @@
+snippet_support = true
+verbosity = 1
+
+
+[servers]
+timeout = 1800
+
+
+[language.c_cpp]
+filetypes = ["c", "cpp", "h", "hpp"]
+roots = ["compile_commands.json", ".clangd", ".git", ".hg"]
+command = "clangd"
+
+
+[language.cmake]
+filetypes = ["cmake"]
+roots = ["CMakeLists.txt", ".git", ".hg"]
+command = "cmake-language-server"
+
+
+[language.python]
+filetypes = ["python"]
+roots = ["requirements.txt", "setup.py", ".git", ".hg"]
+command = "pylsp"
+settings_section = "_"
+
+[language.python.settings._]
+pylsp.plugins.jedi_completion.include_params = true
+
+
+[semantic_tokens]
+faces = [
+    {face="namespace", token="namespace"},
+    {face="type", token="type"},
+    {face="class", token="class"},
+    {face="enum", token="enum"},
+    {face="interface", token="interface"},
+    {face="struct", token="struct"},
+    {face="typeParameter", token="typeParameter"},
+    {face="parameter", token="parameter"},
+    {face="variable", token="variable"},
+    {face="property", token="property"},
+    {face="enumMember", token="enumMember"},
+    {face="event", token="event"},
+    {face="function", token="function"},
+    {face="method", token="method"},
+    {face="macro", token="macro"},
+    {face="keyword", token="keyword"},
+    {face="modifier", token="modifier"},
+    {face="comment", token="comment"},
+    {face="string", token="string"},
+    {face="number", token="number"},
+    {face="regexp", token="regexp"},
+    {face="operator", token="operator"},
+    {face="decorator", token="decorator"},
+]

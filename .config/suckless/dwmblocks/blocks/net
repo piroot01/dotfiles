@@ -1,0 +1,20 @@
+#!/bin/sh
+
+ethstatus="$(cat /sys/class/net/enp0s25/operstate)"
+
+wifistatus="$(cat /sys/class/net/wlan0/operstate)"
+wifiperc="$(grep "^\s*w" /proc/net/wireless | awk '{ print int($3 * 100 / 70) "%" }')"
+wifissid="$(iwgetid -r)"
+
+ip="$(ip route get 1.1.1.1 | sed -n '/src/{s/.*src *\([^ ]*\).*/\1/p;q}')"
+
+if [ $ethstatus = "up" ]; then
+    netstatus="^c#e0af68^ ^d^eth0"
+    printf "%s^c#e0af68^^d^%s\n" "$netstatus" "$ip"
+elif [ $wifistatus = "up" ]; then
+    netstatus="^c#e0af68^ ^d^$wifiperc"
+    printf "%s^c#e0af68^^d^%s^c#e0af68^^d^%s\n" "$netstatus" "$wifissid" "$ip"
+else
+    netstatus="^c#e0af68^"
+    printf "%s" "$netstatus"
+fi

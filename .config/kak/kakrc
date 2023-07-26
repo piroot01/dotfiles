@@ -1,0 +1,81 @@
+colorscheme tokyo-night
+
+
+# basic
+set-option global matching_pairs ( ) { } [ ] < > “ ” ‘ ’ « » ‹ ›
+set-option global scrolloff 2,2
+set-option global tabstop 4
+set-option global indentwidth 4
+set-option global ui_options terminal_assistant=none
+
+
+# disable specific remove-hooks
+set-option global disabled_hooks '.*-insert'
+
+
+# highlighters
+add-highlighter global/match_brackets show-matching
+add-highlighter global/line_numbers number-lines -hlcursor -relative -separator "   "
+add-highlighter global/ show-whitespaces
+add-highlighter global/ wrap -word -indent
+
+
+# tab for navigating in menu
+hook global InsertCompletionShow .* %{
+    map window insert <tab> <c-n>; map window insert <s-tab> <c-p>
+}
+
+hook global InsertCompletionHide .* %{
+    unmap window insert <tab> <c-n>; unmap window insert <s-tab> <c-p>
+}
+
+
+# custom mappings
+map global normal '<a-up>' 'x"aZy<a-;>kPZ"azdz'
+map global normal '<a-down>' 'xdp'
+
+
+# plugins
+source "/home/tomas/.config/kak/plugins/plug.kak/rc/plug.kak"
+plug "andreyorst/plug.kak" noload
+
+plug "andreyorst/smarttab.kak" defer smarttab %{
+    set-option global softtabstop 4
+} config %{
+    hook global WinSetOption filetype=.* expandtab
+}
+
+plug "crizan/kak-rainbower" %{
+    hook global WinSetOption filetype=(cmake|cpp|c|hpp|h|python|rust) %{
+        rainbow-enable-window
+    }
+}
+
+plug "Delapouite/kakoune-buffers" %{
+    map global normal <tab> ': enter-buffers-mode<ret>' -docstring 'buffers'
+} 
+
+plug "lePerdu/kakboard" %{
+    hook global WinCreate .* %{
+        kakboard-enable
+    }
+}
+
+
+# kak-lsp
+eval %sh{kak-lsp --kakoune -s $kak_session}
+hook global WinSetOption filetype=(cmake|rust|python|c|cpp|h|hpp) %{
+	lsp-enable-window
+}
+
+
+# semantic tokens highlighting
+hook global WinSetOption filetype=(cpp|c|cmake|python) %{
+	hook window -group semantic-tokens BufReload .* lsp-semantic-tokens
+	hook window -group semantic-tokens NormalIdle .* lsp-semantic-tokens
+	hook window -group semantic-tokens InsertIdle .* lsp-semantic-tokens
+	hook -once -always window WinSetOption filetype=.* %{
+		remove-hooks window semantic-tokens
+	}
+}
+

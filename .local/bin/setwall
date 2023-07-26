@@ -1,0 +1,3 @@
+#!/bin/sh
+
+feh --bg-fill $XDG_DATA_HOME/wallpapers/main_wall.jpg --bg-fill $XDG_DATA_HOME/wallpapers/side_wall.jpg

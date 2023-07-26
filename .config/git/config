@@ -1,0 +1,15 @@
+[core]
+    editor = kak
+[user]
+    name = piroot01
+    username = piroot01
+    email = piroot01@gmail.com
+[push]
+    default = simple
+[color]
+    ui = auto
+[format]
+    signoff = true
+[credential "https://github.com"]
+    helper = store
+    username = piroot01

@@ -1,0 +1,24 @@
+# zsh aliases 
+alias v="nvim"
+alias vi="nvim"
+alias vim="nvim"
+alias k="kak"
+alias ll="ls -la --color=auto"
+alias grep="grep --color=auto"
+alias cp="cp -i"
+alias c="clear"
+alias pac="sudo pacman --color=auto"
+alias e="exit"
+alias q="exit"
+alias sudo="doas"
+alias tree="tree -C"
+
+# color auto
+alias paru="paru --color=auto"
+alias ls="ls --color=auto"
+
+# additional
+alias mount_share="doas mount /media/share/*"
+alias rem="ranger /media"
+alias share="ranger /media/share"
+alias umount_share="umount /media/share/*"
